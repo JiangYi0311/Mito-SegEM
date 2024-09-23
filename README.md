@@ -17,7 +17,7 @@ zarr
 ## Pipeline
 ### Mitochondrial segmentation
 The pre-trained mitochondrial segmentation model (Lu et al., 2024) was based on a residual 3D U-Net architecture with four-down/four-up layers, which was provided by PyTorch Connectomics. The model was trained to classify each voxel of the input stack (17 consecutive 256 × 256 pixel-sized images) into the “background”, “mitochondrial mask”, and “mitochondrial contour” categories. The model output was a two-channel image stack with the same format as the input, including the predicted probability maps of mitochondrial masks and contours.
-![Architecture of mitochondrial segmentation and reconstruction]()  
+![Architecture of mitochondrial segmentation and reconstruction](https://github.com/JiangYi0311/Mito-assignment/blob/main/figures/Pipeline%20of%20mitochondrial%20segmentation.png)  
 To generate mitochondrial instance masks, the seeds of mitochondria (or markers) were determined with a high mask probability and low contour probability by thresholding. Then, the marker-controlled watershed transform algorithm (part of the scikit-image library) was employed to generate high-quality instance masks of mitochondria with the seed locations and the predicted probability map of the masks.  
 ### Segmentation import into webKnossos
 The segmentation of mitochondria was imported into the webKnossos using Python scripts.  
