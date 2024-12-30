@@ -35,3 +35,10 @@ The mitochondrial complexity index(MCI) was computed.
 #### 3D rendering
 Here, we used Amria software to 3D render the reconstruction of mitochondria in various cells.  
 <img src="https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/Mitochondria%20of%20intestinal%20and%20testis%20cells.png" width="700" />
+
+## Acknowledgement
+This project is built upon numerous previous projects. Especially, we'd like to thank the contributors of the following GitHub repositories:
+* [pytorch_connectomics](https://github.com/zudi-lin/pytorch_connectomics) Visual Computing Group (VCG) at Harvard University
+* [webKnossos](https://github.com/scalableminds)  Scalable minds GmbH, Potsdam, Germany
+
+
