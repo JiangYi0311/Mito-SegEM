@@ -41,8 +41,8 @@ This project is built upon numerous previous projects. Especially, we'd like to 
 * [pytorch_connectomics](https://github.com/zudi-lin/pytorch_connectomics) Visual Computing Group (VCG) at Harvard University
 * [webKnossos](https://github.com/scalableminds)  Scalable minds GmbH, Potsdam, Germany
 ## Citation
-For a detailed description, please read this [paper](https://www.biorxiv.org/content/10.1101/2024.10.20.619271v1.full.pdf). If you use the method in your research, please cite:
-Jiang et al., 2024. Efficient cell-wide mapping of mitochondria in electron microscopic volumes using webKnossos. bioRxiv.
+For a detailed description, please read this [paper](https://www.biorxiv.org/content/10.1101/2024.10.20.619271v1.full.pdf). If you use the method in your research, please cite:  
+[Jiang et al., 2024. Efficient cell-wide mapping of mitochondria in electron microscopic volumes using webKnossos. BioRxiv.] (https://www.biorxiv.org/content/10.1101/2024.10.20.619271v1.full)
 
 
 
