@@ -1,4 +1,4 @@
-# Mito-assignment
+# Mito-SegEM
 ## Introduction
 
 ## Installation
