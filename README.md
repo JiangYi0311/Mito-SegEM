@@ -10,12 +10,7 @@ Refer to the [Pytorch Connectomics wiki](https://connectomics.readthedocs.io/en/
 WEBKNOSSOS is open-source so you can install it on your server.
 [Check out the documentation](https://docs.webknossos.org/webknossos/installation.html) for a tutorial on how to install WEBKNOSSOS on your server.
 ### Some key dependency libraries
-pytorch  
-webknossos  
-fastremap  
-h5py  
-tifffile  
-zarr  
+pytorch, webknossos, fastremap, h5py, tifffile, zarr  
 ## Pipeline
 ### Mitochondrial segmentation
 The pre-trained mitochondrial segmentation model (Lu et al., 2024) was based on a residual 3D U-Net architecture with four-down/four-up layers, which was provided by PyTorch Connectomics. The model was trained to classify each voxel of the input stack (17 consecutive 256 × 256 pixel-sized images) into the “background”, “mitochondrial mask”, and “mitochondrial contour” categories. The model output was a two-channel image stack with the same format as the input, including the predicted probability maps of mitochondrial masks and contours.
