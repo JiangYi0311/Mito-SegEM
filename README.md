@@ -18,7 +18,7 @@ The pre-trained mitochondrial segmentation model (Lu et al., 2024) was based on 
 To generate mitochondrial instance masks, the seeds of mitochondria (or markers) were determined with a high mask probability and low contour probability by thresholding. Then, the marker-controlled watershed transform algorithm (part of the scikit-image library) was employed to generate high-quality instance masks of mitochondria with the seed locations and the predicted probability map of the masks.  
 ### Segmentation import into webKnossos
 The segmentation of mitochondria was imported into the webKnossos using Python scripts.  
-***run segmentation_to_webknossos.py***
+'<python segmentation_to_webknossos.py>'
 ### Mitochondria assignment by a virtual path
 In the “toggle merger mode” and with the option “hide the unmapped segmentation” selected, a start point was seeded and associated mitochondria were annotated one after another through the mouse right-clicks within individual instances. Upon each valid assignment, the corresponding mitochondrial instance would become visible with a pseudo-color and linked by an active node, so that missing and multiple annotations of mitochondrial instances could be minimized. Note that the “toggle merger mode” does not allow a mouse click outside the segments and ignores redundant annotations of a single segment. Finally, the assembly of the nodes was utilized to specify the associated mitochondrial instances that could be then operated as a defined group with i.e. self-written Python scripts.  
 
