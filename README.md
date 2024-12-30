@@ -1,5 +1,6 @@
 # Mito-SegEM
 ## Introduction
+Recent technical advances in volume electron microscopy (vEM) and artificial intelligence-assisted image processing have facilitated high throughput quantifications of cellular structures, such as mitochondria that are ubiquitous and morphologically diversified. A still often overlooked computational challenge is to assign cell identity to numerous mitochondrial instances, for which both mitochondrial and cell membrane contouring used to be required. Here, we present a vEM reconstruction procedure (called mito-segEM) that utilizes virtual path-based annotation to assign automatically segmented mitochondrial instances at the cellular scale, therefore bypassing the requirement of membrane contouring. The embedded toolset in webKnossos (an open-source online annotation platform) is optimized for fast annotation, visualization, and proofreading of cellular organelle networks. We demonstrate broad applications of mito-segEM on volumetric datasets from various tissues, including the brain, intestine, and testis, to achieve an accurate and efficient reconstruction of mitochondria in a use-dependent fashion. 
 
 ## Installation
 ### PyTorch Connectomics
