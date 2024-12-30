@@ -7,8 +7,8 @@ Recent technical advances in volume electron microscopy (vEM) and artificial int
 The deep learning framework powered by PyTorch for automatic and semi-automatic semantic and instance segmentation in connectomics was provided by the Visual Computing Group (VCG) at Harvard University.  
 Refer to the [Pytorch Connectomics wiki](https://connectomics.readthedocs.io/en/latest/), specifically the [installation page](https://connectomics.readthedocs.io/en/latest/notes/installation.html), for the most up-to-date instructions on installation on a local machine or high-performance cluster.
 ### Install webKnossos
-WEBKNOSSOS is open-source, so you can install it on your own server.
-[Check out the documentation](https://docs.webknossos.org/webknossos/installation.html) for a tutorial on how to install WEBKNOSSOS on your own server.
+WEBKNOSSOS is open-source so you can install it on your server.
+[Check out the documentation](https://docs.webknossos.org/webknossos/installation.html) for a tutorial on how to install WEBKNOSSOS on your server.
 ### Some key dependency libraries
 pytorch  
 webknossos  
@@ -26,7 +26,6 @@ The segmentation of mitochondria was imported into the webKnossos using Python s
 **run segmentation_to_webknossos.py**
 ### Mitochondria assignment by a virtual path
 In the “toggle merger mode” and with the option “hide the unmapped segmentation” selected, a start point was seeded and associated mitochondria were annotated one after another through the mouse right-clicks within individual instances. Upon each valid assignment, the corresponding mitochondrial instance would become visible with a pseudo-color and linked by an active node, so that missing and multiple annotations of mitochondrial instances could be minimized. Note that the “toggle merger mode” does not allow a mouse click outside the segments and ignores redundant annotations of a single segment. Finally, the assembly of the nodes was utilized to specify the associated mitochondrial instances that could be then operated as a defined group with i.e. self-written Python scripts.  
-### Proofreading and downloading
 
 ### Quantitative analysis and 3D rendering
 #### Quantitative analysis
@@ -40,4 +39,4 @@ The mitochondrial complexity index(MCI) was computed.
 **run compute_MCI.py**  
 #### 3D rendering
 Here, we used Amria software to 3D render the reconstruction of mitochondria in various cells.  
-<img src="https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/Mitochondria%20of%20intestinal%20and%20testis%20cells.png" width="600" />
+<img src="https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/Mitochondria%20of%20intestinal%20and%20testis%20cells.png" width="700" />
