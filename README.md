@@ -40,5 +40,4 @@ The mitochondrial complexity index(MCI) was computed.
 **run compute_MCI.py**  
 #### 3D rendering
 Here, we used Amria software to 3D render the reconstruction of mitochondria in various cells.  
-![Mitochondria of intestinal and testis cells](https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/Mitochondria%20of%20intestinal%20and%20testis%20cells.png =1000x)
-<img src="https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/Mitochondria%20of%20intestinal%20and%20testis%20cells.png" width="500" />
+<img src="https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/Mitochondria%20of%20intestinal%20and%20testis%20cells.png" width="600" />
