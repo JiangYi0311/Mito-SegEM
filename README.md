@@ -30,7 +30,9 @@ In the “toggle merger mode” and with the option “hide the unmapped segment
 ### Quantitative analysis and 3D rendering
 The nodes of mitochondria are based on virtual path annotation, which could be extracted from webKnossos.  
 **run extract_virtual_path_node_info.py**  
+  
 All mitochondrial volume was precomputed.  
 **run volume_precomputation.py**  
+  
 The mitochondrial complexity index(MCI) was computed.  
 **run compute_MCI.py**  
