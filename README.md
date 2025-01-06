@@ -25,7 +25,7 @@ In the “toggle merger mode” and with the option “hide the unmapped segment
 First, you open the [dataset](https://webknossos.org/datasets/652d442501000053049c0270#4697,10566,1583,0,32.22), then click "Create Annotation". Switch to skeleton mode and create a new tree. Then, you can follow the steps above.
 #### Three datasets
 [Mouse brainstem dataset](https://wklink.org/7813), [Mouse intestine dataset](https://wklink.org/9127), [Mouse testis dataset](https://wklink.org/3287)  
-You can nml file of the virtual path dataset by the [link](https://1drv.ms/f/c/f64849a5930eaee7/EqoY16vRO5BKgG7YCBQFhaQBQSM8XZEnitX4GvAQQ3YADw?e=edlfQW).
+You can download the .nml file of the mitochondrial virtual path by the [link](https://1drv.ms/f/c/f64849a5930eaee7/EqoY16vRO5BKgG7YCBQFhaQBQSM8XZEnitX4GvAQQ3YADw?e=edlfQW).
 
 ### Quantitative analysis and 3D rendering
 #### Quantitative analysis
