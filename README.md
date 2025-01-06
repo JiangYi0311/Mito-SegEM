@@ -38,7 +38,10 @@ All mitochondrial volume was precomputed.
 The mitochondrial complexity index(MCI) was computed.  
 *`python compute_MCI.py`*  
 #### 3D rendering
-Here, we used Amria software to 3D render the reconstruction of mitochondria in various cells.  
+Here, we used Amria software to 3D render the reconstruction of mitochondria in various cells. 
+##### Mitochondria of mouse brainstem tissue
+<img src="https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/CW1_dendrite_soma_axon.tif" width="700" />
+##### Mitochondria of mouse instestinal and testis tissues
 <img src="https://github.com/JiangYi0311/Mito-SegEM/blob/main/figures/Mitochondria%20of%20intestinal%20and%20testis%20cells.png" width="700" />
 
 ## Acknowledgement
